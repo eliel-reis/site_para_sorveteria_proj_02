@@ -1,0 +1,79 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.section {
+    display: flex;
+    gap: 3%;
+    padding: 100px 20px;
+    max-width: 1024px;
+}
+
+.section section {
+    width: 1024px;
+    height: 100px;
+}
+
+.footer section section h3,
+.footer section section p,
+.p {
+    color: white;
+}
+
+.footer section section h3 {
+    font-size: 18px;
+}
+
+.footer section section p,
+.p {
+    font-size: 16px;
+}
+
+.p {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: 100vw;
+    }
+
+    .section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+    .section section {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        width: 100vw;
+    }
+
+    .p {
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,91 @@
+.topo_container {
+    background-color: #F9DB79;
+    padding: 0 20px;
+    max-width: 100vw;
+}
+
+
+.topo_sub_container {
+    max-width: 1024px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.topo_image {
+    width: 100px;
+    height: 100px;
+}
+
+.topo_container_links {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.topo_links {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .topo_container {
+        max-width: 100vw;
+        padding: 0;
+    }
+
+    .topo_sub_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .topo_container_links {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .topo_container_links::before {
+        content: "";
+        height: 1px;
+        width: 90%;
+        background-color: grey;
+        position: absolute;
+        left: 5%;
+        bottom: 36%;
+    }
+}
+@media (max-width: 268px) {
+    .topo_container {
+        max-width: 100vw;
+        padding: 0;
+    }
+
+    .topo_sub_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .topo_container_links {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .topo_container_links::before {
+        content: "";
+        height: 1px;
+        width: 90%;
+        background-color: grey;
+        position: absolute;
+        left: 5%;
+        bottom: 36%;
+    }
+}

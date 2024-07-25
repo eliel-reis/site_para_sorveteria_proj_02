@@ -85,6 +85,10 @@
     .segunda_secao_textos {
         width: 100%;
     }
+
+    .segunda_secao_textos h2 {
+        text-align: center;
+    }
 }
 @media (max-width: 268px) {
     .main {

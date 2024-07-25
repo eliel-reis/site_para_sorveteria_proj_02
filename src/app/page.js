@@ -61,7 +61,7 @@ export default function Home() {
 
         <Image className={estilos.segunda_secao_image} src={sobre_image} />
         <div className={estilos.segunda_secao_textos} >
-          <h2 className={estilos.h2_sobre_nos} >
+          <h2 >
             SOBRE NÓS
           </h2>
           <span>
